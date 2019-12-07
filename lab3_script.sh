@@ -9,4 +9,4 @@ echo "Enter file name: "
 read file
 echo "Enter regular expression: "
 read regexpr
-grep -c  $regexpr $file
+grep $regexpr $file
